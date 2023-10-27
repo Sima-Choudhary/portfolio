@@ -14,7 +14,7 @@ html{
 #header{
     width: 100wh;
     height: 100vh;
-    background-image: url("image/my_photo.png");
+    background-image: url("my_photo.png");
     background-size:cover;
     background-position: center;
 } 
@@ -343,7 +343,7 @@ nav .fa-solid.fa-bars{
 }
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(image/mobile-photo.png);
+        background-image: url(mobile-photo.png);
         width: 100vw;
       
     }
