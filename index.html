@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/294d6dd026.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">portfoli</div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="short-info">
+
+                <h2>Hi!  I'm <span class="purple">Sima Choudhary</span> <br> I am a passoniate</h2>
+                <span id="element"></span>
+                <script>
+                    var typed = new Typed('#element', {
+                    strings: ['<h2><i> Web Developer </i><h2>'],
+                    typeSpeed: 50,
+                })
+                </Script>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------about------------------------------------------------->
+    <div id="about">
+        <div class="content">
+            <div class="left-box">
+                <img src="image/photo.png" alt="photo">
+            </div>
+            <div class="right-box">
+                <h1 class="sub-title">About me</h1>
+                <p>Willing to work with a leading  company  and to use my analytical thinking to the best of my ability combined with perseverance , so as to contribute to organizations growth and goals ,as well as to attain my professional goal. </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links " onclick="opentab('edu')">Education</p>
+                
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                    <li><span>Web Development</span><br>Web app Development</li>  
+                  </ul>
+                </div>
+                <div class="tab-contents" id="edu">
+
+                    <ul>
+                      <li><span>2023-current</span><br>Persuing MCA <br>LNCT Group of college,Bhopal</li>
+                      <li><span>2019-2022</span><br>Graduation degree <br>East Calcutta Girls' College,Lake Town</li>
+                      <li><span>2017-2019</span><br>Higher Secondary <br>Pearls of God,Hooghly</li>
+                      <li><span>2015-2017</span><br>10th certification <br>Pearls of God,Hooghly</li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!------------------------------------------my  Services----------------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Servicer</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>we specialize in crafting visually appealing, user-friendly, and highly functional websites</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Crafting exceptional and user-centric interfaces that not only engage but delight your audience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Creating app designs that not only look great but also deliver outstanding user experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!-----------------------------------------------My  Works-------------------------------------------------->
+    <din id="project">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/card1.png" alt="photo">
+                    <div class="layer">
+                        <h3>card for paid courses</h3>
+                        <p>The card is designed to give brief information about a course on a perticular website. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/card2.png" alt="photo">
+                    <div class="layer">
+                        <h3>Barcode card</h3>
+                        <p>The card contains the barcode of the user and his/her personal details</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="image/website.png" alt="photo">
+                    <div class="layer">
+                        <h3>UI/UX Design</h3>
+                        <p>The website contains recipe of some sweets</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    
+                    </div>
+                   
+                </div>
+
+
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </din>
+    <!----------------------------------------------Contact Me-------------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i> chysima02@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 8582912274</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/sima.choudhary.94043626/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.instagram.com/sima_choudhary0205/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sima-choudhary-6771a5220/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Sima-Choudhary"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="CV.pdf" download class="btn btn2">Download CV</a>
+                
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name"  placeholder="your Name" required>
+                        <input type="email" name="Email"  placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>copyright <i class="fa-regular fa-copyright"></i> Sima Choudhary. made with <i  class="fa-solid fa-heart"></i>.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxmaFKd0OwPsdl22eQs6F1td9_IfPC1cPBDyefT-P8xqgxTrHsAjTXIA4oryjWWZBClVQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Sucessfully "
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
