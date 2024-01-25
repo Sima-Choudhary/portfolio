@@ -203,7 +203,7 @@ nav ul li a:hover::after{
 }
 .work img{
     height: 400px;
-    width: 400px;
+    width: 500px;
     border-radius: 10px;
     display: block;
     transition:transform 0.5s;
